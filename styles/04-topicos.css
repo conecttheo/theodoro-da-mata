@@ -3,6 +3,7 @@
     text-align: center;
 }
 
+
 .topicos__titulos { 
     color: var(--branco);
     text-transform: uppercase;
@@ -31,6 +32,10 @@
     font-size: 14px;
     font-weight: 700;
     border: 1px solid #00f;
+}
+
+.card-topicos {
+    width: 100%;
 }
 
 .card-curso1, .card-curso2, .card-curso3 {
