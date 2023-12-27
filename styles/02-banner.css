@@ -2,7 +2,7 @@
     background: var(--verde-degrade);
     color: var(--branco);
     text-align: center;
-    padding: 2.5em 2em;
+    padding: 5em 2em;
 }
 
 .banner__titulo {
@@ -17,3 +17,20 @@
     margin: 1em 0;
 }
 
+@media screen and (min-width:1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+    
+    .banner__texto {
+        font-size: 20px;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+}
+
+
+    
+    

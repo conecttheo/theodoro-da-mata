@@ -33,7 +33,7 @@
     border: 1px solid #00f;
 }
 
-.card-curso {
+.card-curso1, .card-curso2, .card-curso3 {
     background: var(--branco);
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     border-radius: 10px;
@@ -77,4 +77,54 @@
     font-size: 16px;
     font-family: var(--font);
     color: var(--preto);
+}
+
+@media screen and (min-width:1024px) {
+    .topicos {
+        padding: 1.7rem 15vw;
+    }
+    .topicos__titulos {
+        font-size: 24px;
+    }
+    .topicos__item{
+        padding: 0.5em;
+    }
+    .topicos__link {
+        font-size: 24px;
+        border: none;
+    }
+    .topicos__link:hover {
+        color: var(--verde);
+        background-color: var(--branco);
+    }
+
+    .card-topicos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 1px;
+        grid-row-gap: 0px;
+    }
+
+    .card-curso1 { grid-area: 1 / 1 / 2 / 2; }
+    .card-curso2 { grid-area: 1 / 2 / 2 / 3; }
+    .card-curso3 { grid-area: 1 / 3 / 2 / 4; }
+
+    .card__descricao-curso {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .descricao__imagem-curso {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1928px) {
+    .topicos {
+        padding: 1.7rem 25vw;
+    }
 }

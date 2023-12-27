@@ -7,3 +7,10 @@ hr {
     padding: 1em;
     font-family: var(--font);
 }
+
+@media screen and (min-width:1024px) {
+    .rodape {
+        display:flex;
+        justify-content: space-around;
+    }
+}

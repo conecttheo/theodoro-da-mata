@@ -65,7 +65,7 @@
     font-weight: 700;
 }
 
-.container__botao {
+.container__botao, .opções {
     display: none;
 }
 
@@ -86,6 +86,101 @@
     font-weight: 700;
 }
 
-.container__imagem{
+.container__imagem {
     padding: 0.1rem;
+}
+
+.container__titulo1, .container__titulo--negrito1, .container__imagem1 {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .container__titulo1, .container__titulo--negrito1 {
+        font-family: 'Bebas Neue', sans-serif;;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container__titulo1 {
+        font-weight: 400;
+        display: block;
+    }
+    
+    .container__titulo--negrito1 {
+        font-weight: 700;
+    }
+    
+    .container__imagem1 {
+        display: block;
+        padding: 0.1rem;
+    }
+
+
+    .container__titulo, .container__titulo--negrito {
+        display: none;
+    }
+
+    .opções {
+        display: flex;
+    }
+
+    .opções__item {
+        padding: 0 3em;
+        text-transform: uppercase;
+    }
+
+    .opções__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente, .cabecalho__hamburguer, .opções__botão {
+        display: none;
+    }
+
+    .opções__botão:checked ~ .lista-menu {
+        display: block;
+        width: auto;
+    }
+
+    .opções__botão:checked ~.opções__rotulo > .opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opções__item {
+        padding: 2em 1em;
+    }
+  
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width:1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
+    }
 }
