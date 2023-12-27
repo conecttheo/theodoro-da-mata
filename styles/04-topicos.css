@@ -20,8 +20,6 @@
 
 .topicos__item {
     margin: 2em 0.5em;
-    border: 2px solid #000
-    
 }
 
 .topicos__link {
@@ -32,6 +30,7 @@
     text-decoration: none;
     font-size: 14px;
     font-weight: 700;
+    border: 1px solid #00f;
 }
 
 .card-curso {

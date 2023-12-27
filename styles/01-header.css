@@ -70,7 +70,7 @@
 }
 
 .container__titulo, .container__titulo--negrito {
-    font-family: var(--font-sec);
+    font-family: 'Bebas Neue', sans-serif;;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -87,5 +87,5 @@
 }
 
 .container__imagem{
-    padding: 0.5rem;
+    padding: 0.1rem;
 }

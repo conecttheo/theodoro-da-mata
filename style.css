@@ -1,10 +1,10 @@
-@import url(estilos/01-header.css);
-@import url(estilos/02-banner.css);
-@import url(estilos/03-about.css);
-@import url(estilos/04-topicos.css);
-@import url(estilos/05-cards.css);
-@import url(estilos/06-contato.css);
-@import url(estilos/07-footer.css);
+@import url(styles/01-header.css);
+@import url(styles/02-banner.css);
+@import url(styles/03-about.css);
+@import url(styles/04-topicos.css);
+@import url(styles/05-cards.css);
+@import url(styles/06-contato.css);
+@import url(styles/07-footer.css);
 
 :root {
     --cor-de-fundo: #26ade4;
