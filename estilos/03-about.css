@@ -1,0 +1,15 @@
+.about {
+    display: block;
+    padding: 25px;
+}
+
+.foto-de-perfil {
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 5.2rem;
+}
+
+.about__texto {
+    font-family: var(--font-sec);
+    padding: 5px;
+}

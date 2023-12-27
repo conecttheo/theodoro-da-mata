@@ -1,0 +1,33 @@
+@import url(estilos/01-header.css);
+@import url(estilos/02-banner.css);
+@import url(estilos/03-about.css);
+@import url(estilos/04-topicos.css);
+@import url(estilos/05-cards.css);
+@import url(estilos/06-contato.css);
+@import url(estilos/07-footer.css);
+
+:root {
+    --cor-de-fundo: #26ade4;
+    --branco: #ffffff;
+    --verde: #d1e751;
+    --azul-degrade: linear-gradient(47.54deg, #d1e751 35.49%, #26ade4 65.37%);
+    --verde-degrade: linear-gradient(97.54deg, #024a66 35.49%, #d1e751 125.37%);
+    --azul: #4dbce9;
+    --preto: #000000;
+    --cinza-escuro: #474646;
+    --cinza: #858585;
+    --font: 'Poppins', sans-serif;
+    --font-sec: 'Josefin Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+}

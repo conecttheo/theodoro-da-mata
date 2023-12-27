@@ -1,0 +1,19 @@
+.banner {
+    background: var(--verde-degrade);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--font);
+}
+
+.banner__texto {
+    font-family: var(--font);
+    font-weight: 500;
+    margin: 1em 0;
+}
+

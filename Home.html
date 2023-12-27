@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    
+    <title>Theodoro da Mata</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabecalho__hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#sobre_mim" class="lista-menu__link">SOBRE MIM</a></li>
+                <li class="lista-menu__item">
+                    <a href="#front-end" class="lista-menu__link">FRONT-END</a></li>
+                <li class="lista-menu__item">
+                    <a href="#projetos" class="lista-menu__link">PROJETOS</a></li>
+                 <li class="lista-menu__item">
+                    <a href="#contatos" class="lista-menu__link">CONTATOS</a></li>
+            </ul>
+        </div>
+
+        <h1 class="container__titulo"><b class="container__titulo--negrito">Theo
+            <img src="assets/logos/raio-logo.png" alt="logo do Theo" class="container__imagem" width="10%">
+            Da Mata</b></h1>
+
+        <div class="container">
+            <a href="https://www.instagram.com/theodoro.mata/" class="container__link" target="_blank">
+                <img src="assets/icons/instagram.png" alt="icone dO instagram" class="container__imagem">
+            </a>
+            <a href="https://www.linkedin.com/in/theodoro-da-mata177/" class="container__link" target="_blank">
+                <img src="assets/icons/linkedin.png" alt="icone dO linkedin" class="container__imagem">
+            </a>
+        </div>
+
+        <!--<ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#sobre_mim" class="lista-menu__link">SOBRE MIM</a></li>
+                <li class="lista-menu__item">
+                    <a href="#front-end" class="lista-menu__link">FRONT-END</a></li>
+                <li class="lista-menu__item">
+                    <a href="#projetos" class="lista-menu__link">PROJETOS</a></li>
+                <li class="lista-menu__item">
+                    <a href="#contatos" class="lista-menu__link">CONTATOS</a></li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link"></a>Favoritos</li>
+            <li class="opções__item"><a href="#" class="opções__link"></a>Minha estante</li>
+        </ul> -->
+        </header>
+
+        <section class="banner">
+            <h2 class="banner__titulo">Ola! Sou Theodoro Da Mata!</h2>
+            <p class="banner__texto">Desenvolvedor Front-end com especialidade em JavaScript, HTML e CSS.</p>
+        </section>
+
+        <section class="about" id="sobre_mim">
+            <div class="grupo__about">
+                <img src="assets/img/theo-perfil.jpg" alt="" class="foto-de-perfil">
+                <div>
+                    <p class="about__texto">Atuo como desenvolvedor Front-End freelancer e tenho experiência com JavaScript, HTML, CSS, Bootstrap. Aprovado em Design Thinking, UX, Scrum, Kanban, Metodologias Ágeis, Gestão de Projetos e Inteligência Emocional pelo curso de Front-End Development da Descomplica em Parceria com o Instituto NU.</p>
+                    <p class="about__texto">Tenho como vocação e hobbie o áudio e a iluminação de eventos, possuo mais de 8 anos de serviço voluntário como operador de som e iluminador na igreja da cidade e durante o ano de 2022 pude exercer essa função como funcionário da igreja.</p>
+                    <p class="about__texto">Dediquei 1 ano de estudos e aprofundamento ministerial no curso IC College, fornecido pela Igreja da Cidade em São José dos Campos. Foi uma imersão na cultura da igreja com aulas focadas em liderança pessoal; liderança ministerial com disciplinas de Gestão de Projetos, Visão Empreendedora, Comunicação e Criatividade, Cultura da Honra; e serviço voluntário em todos os ministérios que compõem a Igreja.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="topicos" id="front-end">
+            <h2 class="topicos__titulos">TÉCNOLOGIAS E ESPECIALIDADES</h2>
+            <div class="card-curso">
+                <div class="card__descricao-curso">
+                    <img src="assets/logos/unifeob_logo.jpg" class="descricao__imagem-curso" >
+                    <div class="descricao">
+                        <h3 class="titulo-curso">Análise e Desenvolvimento de Sistemas</h3>
+                        <h2 class="descricao__titulo-curso">UNIFEOB</h2>
+                        <p class="descricao__texto-curso">Out/2022 - Cursando</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-curso">
+                <div class="card__descricao-curso">
+                    <img src="assets/logos/desc-logo.jpg" class="descricao__imagem-curso" >
+                    <div class="descricao">
+                        <h3 class="titulo-curso">Fundamentos de FrontEnd Development</h3>
+                        <h2 class="descricao__titulo-curso">Descomplica e Instituto NU</h2>
+                        <p class="descricao__texto-curso">Ago/2023 - 220h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-curso">
+                <div class="card__descricao-curso">
+                    <img src="assets/logos/alura-logo.jpg" class="descricao__imagem-curso" >
+                    <div class="descricao">
+                        <h3 class="titulo-curso">Escola de Desenvolvimento em FrontEnd</h3>
+                        <h2 class="descricao__titulo-curso">Alura</h2>
+                        <p class="descricao__texto-curso">Jun/2023 - Cursando</p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="topicos__lista">
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">HTML</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">CSS</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">JAVASCRIPT</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">GESTÃO DE PROJETOS</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">BOOTSTRAP</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">GIT & GITHUB</a>
+                </li>
+                
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">DESIGN THINKING & UX</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">CRIATIVIDADE</a>
+                </li>
+                <li class="topicos__item">
+                    <a href="#" class="topicos__link">REDE DE COMPUTADORES</a>
+                </li>
+            </ul>
+
+            
+        </section>
+
+        <section class="cards" id="projetos">
+            <h2 class="cards__titulo">Projetos</h2>
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Jogo: Advinhe o número secreto</h3>
+                        <h2 class="descricao__titulo-livro">HTML | CSS | JAVASCRIPT</h2>
+                        <p class="descricao__texto">Jogo de adivinhar o numero gerado pelo computador aprendido com a Imersão_Dev da Alura.</p>
+                    </div>
+                    <img src="assets/img/número-secreto.png" class="descricao__imagem">
+                </div>  
+                <div class="card__botoes">
+                    <ul class="botoes">
+                            <a href="https://github.com/conecttheo/Mentalista_numerico" target="_blank">
+                                <img src="assets/icons/github.png">
+                            </a>
+                    </ul>
+                    <a href="https://conecttheo.github.io/Mentalista_numerico/" class="botoes__ancora" target="_blank">
+                        Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Placar de Rummikub</h3>
+                        <h2 class="descricao__titulo-livro">HTML | CSS | JAVASCRIPT</h2>
+                        <p class="descricao__texto">Plataforma web de soma de pontos dos jogadores de uma partida de Rummikub.</p>
+                    </div>
+                    <img src="assets/img/placar-rummikub.png" class="descricao__imagem">
+                </div>  
+                <div class="card__botoes">
+                    <ul class="botoes">
+                            <a href="https://github.com/conecttheo/Placar_Rummikub" target="_blank">
+                                <img src="assets/icons/github.png">
+                            </a>
+                    </ul>
+                    <a href="https://conecttheo.github.io/Placar_Rummikub/" class="botoes__ancora" target="_blank">
+                        Acesse aqui</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card__descricao">
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">POKEAPI</h3>
+                        <h2 class="descricao__titulo-livro">HTML | CSS | JAVASCRIPT</h2>
+                        <p class="descricao__texto">Pokedex criada com API da 1ª Geração de Pokémons.</p>
+                    </div>
+                    <img src="assets/img/pokeapi.png" class="descricao__imagem">
+                </div>  
+                <div class="card__botoes">
+                    <ul class="botoes">
+                            <a href="https://github.com/conecttheo/poke-api" target="_blank">
+                                <img src="assets/icons/github.png">
+                            </a>
+                    </ul>
+                    <a href="conecttheo.github.io/poke-api/" class="botoes__ancora" target="_blank">
+                        Acesse aqui</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contatos" class="contato">
+            <div class="contato__descrição">
+                <h2 class="contato__titulo">Fale comigo!</h2>
+                <p class="contato__texto">Gostou do que viu? Estou entusiasmado para discutir oportunidades de colaboração!</p>
+                <p class="contato__texto">Entre em contato comigo para explorarmos como posso agregar valor à sua equipe.</p>
+            
+                <div class="container">
+                    <a href="https://www.linkedin.com/in/theodoro-da-mata177/" class="botoes__ancora-contato" target="_blank">
+                        Linkedin</a>
+                    <a href="mailto:theodamata@gmail.com" class="botoes__ancora-contato" target="_blank">
+                        Email</a>
+                </div>
+            </div>    
+        </section>
+
+        <hr />
+
+        <footer class="rodape">
+            <h2 class="rodape__titulo">Desenvolvido por Theo &copy; 2023 by Alura </h2>
+        </footer>
+</body>
+</html>
