@@ -11,3 +11,6 @@
 | :rocket: URL         |https://conecttheo.github.io/theodoro-da-mata/
 
 <h3>PÁGINA INICIAL<h3/>
+
+
+![2023-12-28 13-14-35](https://github.com/conecttheo/theodoro-da-mata/assets/127543588/6ea63bdb-c682-4098-b485-62876102678e)
