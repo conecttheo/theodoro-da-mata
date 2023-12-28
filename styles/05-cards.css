@@ -77,6 +77,11 @@
     text-decoration: none;
 }
 
+.botoes__ancora:hover {
+    color: var(--branco);
+    background-color: var(--azul);
+}
+
 @media screen and (min-width:815px) {
     .topicos {
         padding: 1.7rem 15vw;
@@ -127,4 +132,21 @@
     .card6 { grid-area: 2 / 3 / 3 / 4; }
     .card7 { grid-area: 3 / 2 / 4 / 3; }
 
+}
+
+@media screen and (min-width:1928px) {
+    .cards {
+        width: 80%;
+    }
+
+    .desc-card {
+        padding: 20px 15px 0 0;
+    }
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+    }
 }
