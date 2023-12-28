@@ -16,7 +16,7 @@
 
 @media screen and (min-width:1024px) {
     .apresentacao {
-        padding:  2.5% 15%;
+        padding:  2.5% 7.5%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -24,18 +24,18 @@
     }
 
     .about {
-        width: 50%;
+        width: 45%;
         display: flex;
         flex-direction: column;
         gap: 40px;
     }
 
     .about__texto {
-        font-size: 1.35rem;
+        font-size: 1.2rem;
     }
 
     .foto-de-perfil {
-        width: 30%;
+        width: 50%;
         border-radius: 5%;
         margin-left: 5.2rem;
     }
