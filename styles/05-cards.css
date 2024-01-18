@@ -24,15 +24,18 @@
 
 .card__botoes {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .descricao__imagem {
     width: 50%;
+    margin-left: 10px;
 }
 
 .botoes {
     display: flex;
+    margin: 0 10px 0;
 }
 
 .card {
@@ -45,7 +48,7 @@
 
 .descricao__titulo {
     color:var(--verde);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     font-family: var(--font);
 }
@@ -59,9 +62,11 @@
 }
 
 .descricao__texto {
-    font-size: 14px;
+    font-size: 16px;
     font-family: var(--font);
     color: var(--branco);
+    display: flex;
+    align-items: center;
 }
 
 .botoes__item {
