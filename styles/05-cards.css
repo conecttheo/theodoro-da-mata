@@ -19,7 +19,7 @@
 .card__descricao {
     display:flex;
     justify-content: space-between;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.25em;
 }
 
 .card__botoes {
