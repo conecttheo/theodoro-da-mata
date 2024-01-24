@@ -130,11 +130,6 @@
         justify-content: center;
     }
 
-    .opções__item {
-        padding: 0 3em;
-        text-transform: uppercase;
-    }
-
     .opções__link {
         text-decoration: none;
         color: var(--preto);
@@ -159,6 +154,8 @@
         font-size: 18px;
         font-weight: 700;
         border-radius: 8px;
+        padding: 0 3em;
+        text-transform: uppercase;
     }
 
     .item-menu {
