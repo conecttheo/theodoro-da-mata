@@ -91,7 +91,42 @@
     background-color: var(--azul);
 }
 
+@media screen and (min-width:500px) {
+    .card__descricao {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .descricao__titulo {
+        font-size: 28px;
+    }
+    
+    .descricao__titulo-livro {
+        font-size: 28px;
+        margin: 0.5em 0;
+    }
+    
+    .descricao__texto {
+        font-size: 26px;
+    }
+}
+
 @media screen and (min-width:815px) {
+    .descricao__titulo {
+        font-size: 18px;
+    }
+    
+    .descricao__titulo-livro {
+        font-size: 18px;
+        margin: 0.5em 0;
+    }
+    
+    .descricao__texto {
+        font-size: 16px;
+    }
+
     .topicos {
         padding: 1.7rem 15vw;
     }

@@ -48,7 +48,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 3em 15vw;
+        padding: 5em 15vw;
     }
 
     .contato__descrição {
@@ -56,7 +56,7 @@
     }
 
     .contato__titulo{
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 500;
     }
 
@@ -68,6 +68,6 @@
 
 @media screen and (min-width:1728px) {
     .contato {
-        padding: 3em 30vw;
+        padding: 5em 30vw;
     }
 }
