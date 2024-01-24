@@ -9,12 +9,14 @@
     font-size: 18px;
     font-weight: 700;
     font-family: var(--font);
+    color: #045a7c;
 }
 
 .banner__texto {
     font-family: var(--font);
     font-weight: 500;
     margin: 1em 0;
+    color: #045a7c;
 }
 
 @media screen and (min-width:1024px) {
