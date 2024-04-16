@@ -5,6 +5,7 @@
 @import url(styles/05-cards.css);
 @import url(styles/06-contato.css);
 @import url(styles/07-footer.css);
+@import url(styles/swiper.css);
 
 :root {
     --cor-de-fundo: #26ade4;
